@@ -83,7 +83,6 @@ const Home = (props) => {
         </div>
       </header>
       <div className="home-banner">
-        <div className="home-container2"></div>
         <h1 className="home-text">
           <span>
             KEEP YOUR
@@ -96,7 +95,23 @@ const Home = (props) => {
           <br></br>
           <span>PREMISES SECURE</span>
         </h1>
-        <div className="home-container3"></div>
+      </div>
+      <div className="home-banner1">
+        <div className="home-container2"></div>
+      </div>
+      <div className="home-banner2">
+        <h1 className="home-text4">
+          <span>
+            YOUR SAFETY IS
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>OUR PRIORITY</span>
+        </h1>
       </div>
     </div>
   )

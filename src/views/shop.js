@@ -32,7 +32,7 @@ const Shop = (props) => {
         </div>
         <div data-role="MobileMenu" className="shop-mobile-menu">
           <div className="shop-nav1">
-            <div className="shop-container1">
+            <div className="shop-container01">
               <img
                 alt="image"
                 src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
@@ -90,6 +90,54 @@ const Shop = (props) => {
           <span>while you find what you need</span>
         </h1>
       </div>
+      <div className="shop-container02"></div>
+      <div className="shop-container03">
+        <h1 className="shop-text04">FULL SYSTEMS</h1>
+      </div>
+      <div className="shop-container04">
+        <div className="shop-container05">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image2"
+          />
+          <span className="shop-text05">
+            <span className="shop-text06">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text07"></br>
+            <span className="shop-text08">R1750</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container06"></div>
+        <div className="shop-container07">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image3"
+          />
+          <span className="shop-text10">
+            <span className="shop-text11">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text12"></br>
+            <span className="shop-text13">R1750</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container08"></div>
+        <div className="shop-container09">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image4"
+          />
+          <span className="shop-text15">
+            <span className="shop-text16">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text17"></br>
+            <span className="shop-text18">R1750</span>
+            <br></br>
+          </span>
+        </div>
+      </div>
+      <div className="shop-container10"></div>
     </div>
   )
 }

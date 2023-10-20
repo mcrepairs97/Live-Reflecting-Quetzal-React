@@ -109,7 +109,7 @@
 }
 .home-banner {
   width: 100%;
-  height: 587px;
+  height: 813px;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
@@ -119,37 +119,70 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: space-between;
-  background-image: url("/external/istockphoto-1446045839-612x612-1500w.jpg");
-}
-.home-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
+  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash1-1500w.jpg");
+  background-position: bottom left;
 }
 .home-text {
   color: rgb(255, 255, 255);
   width: 1281px;
   font-size: 7rem;
+  margin-top: 215px;
   text-align: left;
   font-family: "Prestage Outline";
   font-weight: 900;
   margin-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
 }
-.home-container3 {
+.home-banner1 {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: 87px;
+  justify-content: space-between;
+}
+.home-container2 {
   flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
   align-items: flex-start;
+  border-color: #787878;
+  border-style: solid;
+  border-width: 7px;
   flex-direction: row;
   justify-content: center;
+}
+.home-banner2 {
+  width: 100%;
+  height: 813px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: space-between;
+  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash-1500w.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+.home-text4 {
+  color: rgb(255, 255, 255);
+  width: 1642px;
+  font-size: 7rem;
+  margin-top: 215px;
+  text-align: right;
+  font-family: "Prestage Outline";
+  font-weight: 900;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: lowercase;
 }
 @media(max-width: 991px) {
   .home-icon06 {
@@ -173,6 +206,14 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-banner2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
 }
 @media(max-width: 479px) {
   .home-header {
@@ -190,12 +231,20 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
+  .home-banner1 {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
   .home-container2 {
     align-items: center;
     flex-direction: column;
   }
-  .home-container3 {
-    align-items: center;
-    flex-direction: column;
+  .home-banner2 {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
   }
 }

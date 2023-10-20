@@ -49,7 +49,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.shop-container1 {
+.shop-container01 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -106,26 +106,156 @@
 }
 .shop-banner {
   width: 100%;
-  height: 309px;
+  height: 491px;
   display: flex;
+  opacity: 0.75;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
   justify-content: space-between;
-  background-color: #8c8c8c;
+  background-image: url("/external/lianhao-qu-lfan1gswv5c-unsplash-1500w.jpg");
 }
 .shop-text {
-  color: rgb(0, 0, 0);
+  color: #ffffff;
   width: 1281px;
   font-size: 5rem;
+  margin-top: 105px;
   text-align: center;
   font-family: "Prestage Outline";
   font-weight: 900;
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
+}
+.shop-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.shop-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-text04 {
+  align-self: center;
+  text-align: left;
+  font-family: "Impact";
+}
+.shop-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-container05 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.shop-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.shop-text05 {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shop-text06 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.shop-text07 {
+  font-size: 20px;
+}
+.shop-text08 {
+  color: #ff0000;
+  font-size: 24px;
+}
+.shop-container06 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.shop-container07 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.shop-image3 {
+  width: 200px;
+  object-fit: cover;
+}
+.shop-text10 {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shop-text11 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.shop-text12 {
+  font-size: 20px;
+}
+.shop-text13 {
+  color: #ff0000;
+  font-size: 24px;
+}
+.shop-container08 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.shop-container09 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.shop-image4 {
+  width: 200px;
+  object-fit: cover;
+}
+.shop-text15 {
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shop-text16 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.shop-text17 {
+  font-size: 20px;
+}
+.shop-text18 {
+  color: #ff0000;
+  font-size: 24px;
+}
+.shop-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
 }
 @media(max-width: 991px) {
   .shop-icon {
