@@ -133,10 +133,10 @@
 .shop-container02 {
   flex: 0 0 auto;
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .shop-container03 {
   flex: 0 0 auto;
@@ -146,7 +146,7 @@
   align-items: center;
   justify-content: center;
 }
-.shop-text04 {
+.shop-text05 {
   align-self: center;
   text-align: left;
   font-family: "Impact";
@@ -167,19 +167,19 @@
   width: 200px;
   object-fit: cover;
 }
-.shop-text05 {
+.shop-text06 {
   align-self: center;
   text-align: center;
   text-transform: uppercase;
 }
-.shop-text06 {
+.shop-text07 {
   font-size: 20px;
   text-transform: uppercase;
 }
-.shop-text07 {
+.shop-text08 {
   font-size: 20px;
 }
-.shop-text08 {
+.shop-text09 {
   color: #ff0000;
   font-size: 24px;
 }
@@ -200,15 +200,15 @@
   width: 200px;
   object-fit: cover;
 }
-.shop-text10 {
+.shop-text11 {
   align-self: center;
   text-align: center;
   text-transform: uppercase;
 }
-.shop-text11 {
+.shop-text12 {
   font-size: 20px;
 }
-.shop-text13 {
+.shop-text14 {
   color: #ff0000;
   font-size: 24px;
 }
@@ -229,19 +229,19 @@
   width: 200px;
   object-fit: cover;
 }
-.shop-text15 {
+.shop-text16 {
   align-self: center;
   text-align: center;
   text-transform: uppercase;
 }
-.shop-text16 {
+.shop-text17 {
   font-size: 20px;
   text-transform: uppercase;
 }
-.shop-text17 {
+.shop-text18 {
   font-size: 20px;
 }
-.shop-text18 {
+.shop-text19 {
   color: #ff0000;
   font-size: 24px;
 }
@@ -262,22 +262,25 @@
     border-style: solid;
     border-width: 0px;
   }
+  .shop-text04 {
+    color: #ffffff;
+  }
   .shop-container06 {
     border-color: #ffffff;
     border-style: solid;
     border-width: 0px;
   }
-  .shop-text10 {
-    text-transform: uppercase;
-  }
   .shop-text11 {
-    font-size: 20px;
     text-transform: uppercase;
   }
   .shop-text12 {
     font-size: 20px;
+    text-transform: uppercase;
   }
   .shop-text13 {
+    font-size: 20px;
+  }
+  .shop-text14 {
     color: #ff0000;
     font-size: 24px;
   }

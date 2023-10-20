@@ -90,9 +90,11 @@ const Shop = (props) => {
           <span>while you find what you need</span>
         </h1>
       </div>
-      <div className="shop-container02"></div>
+      <div className="shop-container02">
+        <span className="shop-text04">a</span>
+      </div>
       <div className="shop-container03">
-        <h1 className="shop-text04">FULL SYSTEMS</h1>
+        <h1 className="shop-text05">FULL SYSTEMS</h1>
       </div>
       <div className="shop-container04">
         <div className="shop-container05">
@@ -101,10 +103,10 @@ const Shop = (props) => {
             alt="image"
             className="shop-image2"
           />
-          <span className="shop-text05">
-            <span className="shop-text06">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text07"></br>
-            <span className="shop-text08">R1750</span>
+          <span className="shop-text06">
+            <span className="shop-text07">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text08"></br>
+            <span className="shop-text09">R1750</span>
             <br></br>
           </span>
         </div>
@@ -115,10 +117,10 @@ const Shop = (props) => {
             alt="image"
             className="shop-image3"
           />
-          <span className="shop-text10">
-            <span className="shop-text11">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text12"></br>
-            <span className="shop-text13">R1850</span>
+          <span className="shop-text11">
+            <span className="shop-text12">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text13"></br>
+            <span className="shop-text14">R1850</span>
             <br></br>
           </span>
         </div>
@@ -129,10 +131,10 @@ const Shop = (props) => {
             alt="image"
             className="shop-image4"
           />
-          <span className="shop-text15">
-            <span className="shop-text16">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text17"></br>
-            <span className="shop-text18">R1750</span>
+          <span className="shop-text16">
+            <span className="shop-text17">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text18"></br>
+            <span className="shop-text19">R1750</span>
             <br></br>
           </span>
         </div>
