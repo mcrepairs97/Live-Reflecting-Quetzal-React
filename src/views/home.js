@@ -96,9 +96,7 @@ const Home = (props) => {
           <span>PREMISES SECURE</span>
         </h1>
       </div>
-      <div className="home-banner1">
-        <div className="home-container2"></div>
-      </div>
+      <div className="home-banner1"></div>
       <div className="home-banner2">
         <h1 className="home-text4">
           <span>

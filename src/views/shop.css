@@ -258,12 +258,14 @@
     border-style: hidden;
   }
   .shop-container02 {
-    border-color: rgba(120, 120, 120, 0);
-    border-style: hidden;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0px;
   }
   .shop-container06 {
-    border-color: rgba(120, 120, 120, 0);
-    border-style: hidden;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0px;
   }
   .shop-text10 {
     text-transform: uppercase;
@@ -280,11 +282,14 @@
     font-size: 24px;
   }
   .shop-container08 {
-    border-color: rgba(120, 120, 120, 0);
-    border-style: hidden;
+    border-color: #fdfdfd;
+    border-style: solid;
+    border-width: 0px;
   }
   .shop-container10 {
-    border-style: hidden;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0px;
   }
 }
 @media(max-width: 991px) {

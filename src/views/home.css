@@ -135,6 +135,7 @@
 }
 .home-banner1 {
   width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 58px;
   display: flex;
   align-items: center;
@@ -144,18 +145,6 @@
   flex-direction: column;
   padding-bottom: 87px;
   justify-content: space-between;
-}
-.home-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  border-color: #787878;
-  border-style: solid;
-  border-width: 7px;
-  flex-direction: row;
-  justify-content: center;
 }
 .home-banner2 {
   width: 100%;
@@ -187,10 +176,6 @@
 @media(max-width: 1600px) {
   .home-header {
     border-style: hidden;
-  }
-  .home-container2 {
-    border-style: hidden;
-    border-width: 0px;
   }
   .home-text4 {
     width: 1278px;
@@ -248,10 +233,6 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .home-container2 {
-    align-items: center;
-    flex-direction: column;
   }
   .home-banner2 {
     padding-top: var(--dl-space-space-threeunits);
