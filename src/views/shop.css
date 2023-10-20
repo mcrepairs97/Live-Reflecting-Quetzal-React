@@ -259,9 +259,11 @@
   }
   .shop-container02 {
     border-color: rgba(120, 120, 120, 0);
+    border-style: hidden;
   }
   .shop-container06 {
     border-color: rgba(120, 120, 120, 0);
+    border-style: hidden;
   }
   .shop-text10 {
     text-transform: uppercase;
@@ -279,6 +281,7 @@
   }
   .shop-container08 {
     border-color: rgba(120, 120, 120, 0);
+    border-style: hidden;
   }
   .shop-container10 {
     border-style: hidden;
