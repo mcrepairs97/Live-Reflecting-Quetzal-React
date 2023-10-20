@@ -127,6 +127,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
+@media(max-width: 1600px) {
+  .about-us-header {
+    border-style: hidden;
+  }
+}
 @media(max-width: 991px) {
   .about-us-icon {
     display: flex;

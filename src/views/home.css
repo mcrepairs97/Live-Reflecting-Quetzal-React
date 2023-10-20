@@ -184,6 +184,17 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
 }
+@media(max-width: 1600px) {
+  .home-header {
+    border-style: hidden;
+  }
+  .home-container2 {
+    border-style: hidden;
+  }
+  .home-text4 {
+    width: 1278px;
+  }
+}
 @media(max-width: 991px) {
   .home-icon06 {
     display: flex;

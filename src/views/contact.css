@@ -127,6 +127,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
+@media(max-width: 1600px) {
+  .contact-header {
+    border-style: hidden;
+  }
+}
 @media(max-width: 991px) {
   .contact-icon {
     display: flex;

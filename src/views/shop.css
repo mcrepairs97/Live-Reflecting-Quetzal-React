@@ -257,6 +257,23 @@
   display: flex;
   align-items: flex-start;
 }
+@media(max-width: 1600px) {
+  .shop-header {
+    border-style: hidden;
+  }
+  .shop-container02 {
+    border-color: rgba(120, 120, 120, 0);
+  }
+  .shop-container06 {
+    border-color: rgba(120, 120, 120, 0);
+  }
+  .shop-container08 {
+    border-color: rgba(120, 120, 120, 0);
+  }
+  .shop-container10 {
+    border-style: hidden;
+  }
+}
 @media(max-width: 991px) {
   .shop-icon {
     display: flex;
