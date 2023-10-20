@@ -7,22 +7,32 @@
 .navigation-links1-text {
   font-family: "Impact";
   text-transform: uppercase;
+  text-decoration: none;
 }
-.navigation-links1-text1 {
+.navigation-links1-navlink {
   font-family: "Impact";
   margin-left: var(--dl-space-space-twounits);
   text-transform: uppercase;
+  text-decoration: none;
 }
-.navigation-links1-text2 {
+.navigation-links1-navlink1 {
   font-family: "Impact";
   margin-left: var(--dl-space-space-twounits);
   text-transform: uppercase;
+  text-decoration: none;
 }
-.navigation-links1-text3 {
+.navigation-links1-navlink2 {
   font-family: "Impact";
   margin-left: var(--dl-space-space-twounits);
   text-transform: uppercase;
+  text-decoration: none;
 }
+
+
+
+
+
+
 
 
 
@@ -41,15 +51,15 @@
   .navigation-links1-text {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text1 {
+  .navigation-links1-navlink {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text2 {
+  .navigation-links1-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text3 {
+  .navigation-links1-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
