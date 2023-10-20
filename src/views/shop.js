@@ -118,7 +118,7 @@ const Shop = (props) => {
           <span className="shop-text10">
             <span className="shop-text11">AHD CCTV 4Ch Kit</span>
             <br className="shop-text12"></br>
-            <span className="shop-text13">R1750</span>
+            <span className="shop-text13">R1850</span>
             <br></br>
           </span>
         </div>

@@ -207,10 +207,6 @@
 }
 .shop-text11 {
   font-size: 20px;
-  text-transform: uppercase;
-}
-.shop-text12 {
-  font-size: 20px;
 }
 .shop-text13 {
   color: #ff0000;
@@ -266,6 +262,20 @@
   }
   .shop-container06 {
     border-color: rgba(120, 120, 120, 0);
+  }
+  .shop-text10 {
+    text-transform: uppercase;
+  }
+  .shop-text11 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .shop-text12 {
+    font-size: 20px;
+  }
+  .shop-text13 {
+    color: #ff0000;
+    font-size: 24px;
   }
   .shop-container08 {
     border-color: rgba(120, 120, 120, 0);
