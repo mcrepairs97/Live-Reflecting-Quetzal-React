@@ -65,7 +65,7 @@ const Shop = (props) => {
           <img
             src="/external/1384023-200h.png"
             alt="image"
-            className="shop-image1"
+            className="shop-image01"
           />
         </a>
         <div className="shop-icon-group1">
@@ -91,55 +91,131 @@ const Shop = (props) => {
         </h1>
       </div>
       <div className="shop-container02">
-        <span className="shop-text04">a</span>
+        <h1 className="shop-text04">FULL SYSTEMS</h1>
       </div>
       <div className="shop-container03">
-        <h1 className="shop-text05">FULL SYSTEMS</h1>
-      </div>
-      <div className="shop-container04">
+        <div className="shop-container04">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image02"
+          />
+          <span className="shop-text05">
+            <span className="shop-text06">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text07"></br>
+            <span className="shop-text08">R1750</span>
+            <br></br>
+          </span>
+        </div>
         <div className="shop-container05">
           <img
             src="/external/47741508-2-pdpxl-200h.jpg"
             alt="image"
-            className="shop-image2"
+            className="shop-image03"
           />
-          <span className="shop-text06">
-            <span className="shop-text07">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text08"></br>
-            <span className="shop-text09">R1750</span>
+          <span className="shop-text10">
+            <span className="shop-text11">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text12"></br>
+            <span className="shop-text13">R1850</span>
             <br></br>
           </span>
         </div>
-        <div className="shop-container06"></div>
-        <div className="shop-container07">
+        <div className="shop-container06">
           <img
             src="/external/47741508-2-pdpxl-200h.jpg"
             alt="image"
-            className="shop-image3"
+            className="shop-image04"
           />
-          <span className="shop-text11">
-            <span className="shop-text12">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text13"></br>
-            <span className="shop-text14">R1850</span>
-            <br></br>
-          </span>
-        </div>
-        <div className="shop-container08"></div>
-        <div className="shop-container09">
-          <img
-            src="/external/47741508-2-pdpxl-200h.jpg"
-            alt="image"
-            className="shop-image4"
-          />
-          <span className="shop-text16">
-            <span className="shop-text17">AHD CCTV 4Ch Kit</span>
-            <br className="shop-text18"></br>
-            <span className="shop-text19">R1750</span>
+          <span className="shop-text15">
+            <span className="shop-text16">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text17"></br>
+            <span className="shop-text18">R1750</span>
             <br></br>
           </span>
         </div>
       </div>
-      <div className="shop-container10"></div>
+      <div className="shop-container07">
+        <div className="shop-container08">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image05"
+          />
+          <span className="shop-text20">
+            <span className="shop-text21">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text22"></br>
+            <span className="shop-text23">R1750</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container09">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image06"
+          />
+          <span className="shop-text25">
+            <span className="shop-text26">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text27"></br>
+            <span className="shop-text28">R1850</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container10">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image07"
+          />
+          <span className="shop-text30">
+            <span className="shop-text31">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text32"></br>
+            <span className="shop-text33">R1750</span>
+            <br></br>
+          </span>
+        </div>
+      </div>
+      <div className="shop-container11">
+        <div className="shop-container12">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image08"
+          />
+          <span className="shop-text35">
+            <span className="shop-text36">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text37"></br>
+            <span className="shop-text38">R1750</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container13">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image09"
+          />
+          <span className="shop-text40">
+            <span className="shop-text41">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text42"></br>
+            <span className="shop-text43">R1850</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container14">
+          <img
+            src="/external/47741508-2-pdpxl-200h.jpg"
+            alt="image"
+            className="shop-image10"
+          />
+          <span className="shop-text45">
+            <span className="shop-text46">AHD CCTV 4Ch Kit</span>
+            <br className="shop-text47"></br>
+            <span className="shop-text48">R1750</span>
+            <br></br>
+          </span>
+        </div>
+      </div>
     </div>
   )
 }

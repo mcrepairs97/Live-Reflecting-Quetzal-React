@@ -96,8 +96,7 @@ const Home = (props) => {
           <span>PREMISES SECURE</span>
         </h1>
       </div>
-      <div className="home-banner1"></div>
-      <div className="home-banner2">
+      <div className="home-banner1">
         <h1 className="home-text4">
           <span>
             YOUR SAFETY IS
