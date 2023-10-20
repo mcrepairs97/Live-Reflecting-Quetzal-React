@@ -190,6 +190,7 @@
   }
   .home-container2 {
     border-style: hidden;
+    border-width: 0px;
   }
   .home-text4 {
     width: 1278px;
