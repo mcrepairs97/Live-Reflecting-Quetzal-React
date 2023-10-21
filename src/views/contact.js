@@ -171,11 +171,29 @@ const Contact = (props) => {
         </div>
       </div>
       <div className="contact-separator2"></div>
+      <div>
+        <div className="contact-container06">
+          <Script
+            html={`<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>`}
+          ></Script>
+        </div>
+      </div>
+      <div className="contact-separator3"></div>
       <footer className="contact-footer">
-        <div className="contact-container05">
+        <div className="contact-container07">
           <img src="/external/untitled-1-400w.png" className="contact-image2" />
-          <div className="contact-container06">
-            <div className="contact-container07">
+          <div className="contact-container08">
+            <div className="contact-container09">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="contact-icon16"
@@ -183,7 +201,7 @@ const Contact = (props) => {
                 <path d="M829.143 73.143c26.857 0 48.571 21.714 48.571 48.571v780.571c0 26.857-21.714 48.571-48.571 48.571h-223.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-420c-26.857 0-48.571-21.714-48.571-48.571v-780.571c0-26.857 21.714-48.571 48.571-48.571h780.571z"></path>
               </svg>
             </div>
-            <div className="contact-container08">
+            <div className="contact-container10">
               <a href="tel:+27630241370" className="contact-link4">
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -193,7 +211,7 @@ const Contact = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="contact-container09">
+            <div className="contact-container11">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="contact-icon20"
@@ -203,8 +221,8 @@ const Contact = (props) => {
             </div>
           </div>
         </div>
-        <div className="contact-separator3"></div>
-        <div className="contact-container10">
+        <div className="contact-separator4"></div>
+        <div className="contact-container12">
           <span className="contact-text10">
             Copyright © 2023. All Rights Reserved.
           </span>
