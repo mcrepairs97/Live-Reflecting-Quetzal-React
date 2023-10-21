@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import './navigation-links1.css'
 
 const NavigationLinks1 = (props) => {
+  const [isVisible, setIsVisible] = useState(false)
   return (
     <nav className={`navigation-links1-nav ${props.rootClassName} `}>
       <Link to="/" className="navigation-links1-text">
@@ -17,7 +18,7 @@ const NavigationLinks1 = (props) => {
       <Link to="/contact" className="navigation-links1-navlink1">
         {props.text2}
       </Link>
-      <Link to="/about-us" className="navigation-links1-navlink2">
+      <Link to="/about-us" className="navigation-links1-link">
         {props.text3}
       </Link>
     </nav>
@@ -25,12 +26,12 @@ const NavigationLinks1 = (props) => {
 }
 
 NavigationLinks1.defaultProps = {
-  text2: 'Pricing',
-  text: 'About',
+  text2: 'Contact',
+  text: 'Home',
   text4: 'Blog',
-  text3: 'Team',
+  text3: 'About us',
   rootClassName: '',
-  text1: 'Features',
+  text1: 'Shop',
 }
 
 NavigationLinks1.propTypes = {

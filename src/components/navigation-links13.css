@@ -1,40 +1,32 @@
-.navigation-links1-nav {
+.navigation-links13-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.navigation-links1-text {
+.navigation-links13-text {
   font-family: "Impact";
   text-transform: uppercase;
   text-decoration: none;
 }
-.navigation-links1-navlink {
-  font-family: "Impact";
-  margin-left: var(--dl-space-space-twounits);
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.navigation-links1-navlink1 {
+.navigation-links13-text1 {
   font-family: "Impact";
   margin-left: var(--dl-space-space-twounits);
   text-transform: uppercase;
   text-decoration: none;
 }
-.navigation-links1-link {
+.navigation-links13-text2 {
   font-family: "Impact";
   margin-left: var(--dl-space-space-twounits);
   text-transform: uppercase;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
+.navigation-links13-text3 {
+  font-family: "Impact";
+  margin-left: var(--dl-space-space-twounits);
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 
 
@@ -66,22 +58,22 @@
 
 
 @media(max-width: 767px) {
-  .navigation-links1-nav {
+  .navigation-links13-nav {
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links1-text {
+  .navigation-links13-text {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-navlink {
+  .navigation-links13-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-navlink1 {
+  .navigation-links13-text2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-link {
+  .navigation-links13-text3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

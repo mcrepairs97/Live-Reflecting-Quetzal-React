@@ -6,107 +6,162 @@
   align-items: center;
   flex-direction: column;
 }
-.about-us-header {
+.about-us-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: 100%;
+  padding: var(--dl-space-space-unit);
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: #3084e4;
+  background-color: #002855;
 }
-.about-us-nav {
+.about-us-image {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+.about-us-desktop-menu {
+  flex: 1;
   display: flex;
+  justify-content: space-between;
+}
+.about-us-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-us-navlink {
+  color: #fffefe;
+  text-decoration: none;
+}
+.about-us-navlink1 {
+  color: #fffefe;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-us-navlink2 {
+  color: #fffefe;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-us-navlink3 {
+  color: #fffefe;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-us-icon-group {
+  width: var(--dl-size-size-xlarge);
+  margin-left: 0px;
+}
+.about-us-icon {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.about-us-icon02 {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.about-us-icon04 {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
 }
 .about-us-burger-menu {
   display: none;
 }
-.about-us-icon {
+.about-us-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  display: none;
 }
 .about-us-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
 }
-.about-us-nav1 {
+.about-us-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.about-us-container1 {
+.about-us-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.about-us-image {
-  height: 2rem;
+.about-us-image1 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
-.about-us-close-mobile-menu {
+.about-us-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.about-us-icon02 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.about-us-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.about-us-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
 }
 .about-us-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.about-us-link {
-  display: contents;
+.about-us-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.about-us-image1 {
-  top: -8px;
-  right: -541px;
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  object-fit: cover;
+.about-us-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink7 {
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .about-us-icon10 {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+.about-us-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.about-us-icon12 {
+.about-us-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   text-decoration: none;
 }
 .about-us-banner {
   width: 100%;
-  height: 309px;
+  height: 491px;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-fourunits);
@@ -114,11 +169,13 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
-  justify-content: space-between;
-  background-color: #8c8c8c;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/external/marvin-meyer-syto3xs06fu-unsplash-1500w.jpg");
+  background-position: center;
 }
 .about-us-text {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   width: 1281px;
   font-size: 5rem;
   text-align: center;
@@ -127,22 +184,282 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-@media(max-width: 1600px) {
-  .about-us-header {
-    border-style: hidden;
+.about-us-banner1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-us-text05 {
+  font-size: 3rem;
+  text-align: center;
+}
+.about-us-text06 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.about-us-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.about-us-banner2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-us-text10 {
+  font-size: 3rem;
+  text-align: center;
+}
+.about-us-text11 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.about-us-separator1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.about-us-footer {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #a5a5a5;
+}
+.about-us-container1 {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-us-image2 {
+  width: 350px;
+  height: var(--dl-size-size-xlarge);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.about-us-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-container3 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-us-icon16 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+}
+.about-us-container4 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-us-link4 {
+  display: contents;
+}
+.about-us-icon18 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  text-decoration: none;
+}
+.about-us-container5 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-us-icon20 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+}
+.about-us-separator2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.about-us-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 1200px) {
+  .about-us-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+    background-color: #002855;
+  }
+  .about-us-image {
+    width: 95px;
+    height: 95px;
+  }
+  .about-us-navlink {
+    color: #ffffff;
+  }
+  .about-us-navlink1 {
+    color: #ffffff;
+  }
+  .about-us-navlink2 {
+    color: #ffffff;
+  }
+  .about-us-navlink3 {
+    color: #ffffff;
+  }
+  .about-us-icon-group {
+    width: var(--dl-size-size-xlarge);
+  }
+  .about-us-icon {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+  }
+  .about-us-icon02 {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+  }
+  .about-us-icon04 {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+  }
+  .about-us-banner {
+    background-size: cover;
+    background-image: url("/external/marvin-meyer-syto3xs06fu-unsplash-1500w.jpg");
+  }
+  .about-us-text {
+    width: 1200px;
+  }
+  .about-us-footer {
+    background-color: #979DAC;
   }
 }
 @media(max-width: 991px) {
+  .about-us-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .about-us-image {
+    width: 85px;
+    height: 85px;
+  }
+  .about-us-navlink {
+    color: #ffffff;
+    font-family: Inter;
+  }
+  .about-us-navlink1 {
+    color: #ffffff;
+  }
+  .about-us-navlink2 {
+    color: #ffffff;
+  }
+  .about-us-navlink3 {
+    color: #ffffff;
+  }
+  .about-us-icon-group {
+    width: var(--dl-size-size-large);
+  }
   .about-us-icon {
-    display: flex;
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+  }
+  .about-us-icon02 {
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+  }
+  .about-us-icon04 {
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+  }
+  .about-us-banner {
+    background-size: cover;
+    background-image: url("/external/marvin-meyer-syto3xs06fu-unsplash-1500w.jpg");
+  }
+  .about-us-text {
+    width: 991px;
+  }
+  .about-us-text06 {
+    max-width: 100%;
+  }
+  .about-us-text11 {
+    max-width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .about-us-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+  .about-us-navbar-interactive {
+    padding: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    background-color: #002855;
   }
-  .about-us-nav {
+  .about-us-image {
+    width: 75px;
+    height: 75px;
+  }
+  .about-us-desktop-menu {
     display: none;
   }
   .about-us-burger-menu {
@@ -150,25 +467,283 @@
     align-items: center;
     justify-content: center;
   }
+  .about-us-icon06 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .about-us-mobile-menu {
+    padding-bottom: 72px;
+    background-color: #002855;
+  }
+  .about-us-image1 {
+    width: 75px;
+    height: 75px;
+  }
+  .about-us-icon08 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .about-us-navlink4 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-navlink5 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-navlink6 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-navlink7 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-icon-group1 {
+    align-self: center;
+  }
+  .about-us-icon10 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .about-us-icon12 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+  }
+  .about-us-icon14 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+  }
   .about-us-banner {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+    background-size: cover;
+    background-image: url("/external/marvin-meyer-syto3xs06fu-unsplash-1500w.jpg");
+  }
+  .about-us-text {
+    width: auto;
+  }
+  .about-us-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-us-text05 {
+    text-decoration: underline;
+  }
+  .about-us-text06 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-us-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-banner2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-us-text10 {
+    text-decoration: underline;
+  }
+  .about-us-text11 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .about-us-separator1 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .about-us-image2 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-separator2 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-container6 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-us-text15 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
-  .about-us-header {
+  .about-us-navbar-interactive {
     padding: var(--dl-space-space-unit);
+    padding-right: 16px;
+    background-color: #002855;
+  }
+  .about-us-icon-group {
+    display: none;
+  }
+  .about-us-icon06 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
   }
   .about-us-mobile-menu {
-    padding: 16px;
+    bottom: var(--dl-space-space-unit);
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 60px;
+    background-color: #002855;
+  }
+  .about-us-icon08 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .about-us-navlink4 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-navlink5 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-navlink6 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+    text-decoration: none;
+  }
+  .about-us-navlink7 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: 0px;
+    text-decoration: none;
   }
   .about-us-icon-group1 {
-    display: none;
+    align-self: center;
+  }
+  .about-us-icon10 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .about-us-icon12 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .about-us-icon14 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
   }
   .about-us-banner {
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+    background-size: cover;
+    background-image: url("/external/marvin-meyer-syto3xs06fu-unsplash-1500w.jpg");
+  }
+  .about-us-text {
+    width: auto;
+    font-size: 4rem;
+  }
+  .about-us-banner1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-text05 {
+    text-decoration: underline;
+  }
+  .about-us-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-banner2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-us-text10 {
+    text-decoration: underline;
+  }
+  .about-us-separator1 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .about-us-image2 {
+    width: auto;
+  }
+  .about-us-container3 {
+    width: auto;
+  }
+  .about-us-icon16 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .about-us-container4 {
+    width: auto;
+  }
+  .about-us-icon18 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .about-us-container5 {
+    width: auto;
+  }
+  .about-us-icon20 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .about-us-separator2 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-us-container6 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-us-text15 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }

@@ -6,46 +6,70 @@
   align-items: center;
   flex-direction: column;
 }
-.home-header {
+.home-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: 100%;
+  padding: var(--dl-space-space-unit);
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: #3084e4;
+  background-color: #002855;
 }
-.home-nav {
+.home-image {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+.home-desktop-menu {
+  flex: 1;
   display: flex;
+  justify-content: space-between;
+}
+.home-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .home-navlink {
-  display: contents;
+  color: #ffffff;
+  text-decoration: none;
 }
-.home-component {
+.home-navlink1 {
+  color: #ffffff;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-navlink2 {
+  color: #ffffff;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-navlink3 {
+  color: #ffffff;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .home-icon-group {
-  width: 113px;
+  width: var(--dl-size-size-xlarge);
 }
 .home-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
   margin-right: var(--dl-space-space-twounits);
 }
 .home-icon02 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
   margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .home-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
   text-decoration: none;
 }
 .home-burger-menu {
@@ -54,37 +78,40 @@
 .home-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  display: none;
 }
 .home-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
 }
-.home-nav1 {
+.home-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container1 {
+.home-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-image {
-  height: 2rem;
+.home-image1 {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
-.home-close-mobile-menu {
+.home-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,10 +120,33 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+.home-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-navlink5 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-navlink6 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-navlink7 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .home-icon10 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
 }
 .home-icon12 {
   width: var(--dl-size-size-xsmall);
@@ -106,6 +156,7 @@
 .home-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  text-decoration: none;
 }
 .home-banner {
   width: 100%;
@@ -119,7 +170,7 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: space-between;
-  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash1-1500w.jpg");
+  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash-1500w.jpg");
   background-position: bottom left;
 }
 .home-text {
@@ -133,6 +184,14 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .home-banner1 {
   width: 100%;
   height: 813px;
@@ -145,13 +204,13 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: space-between;
-  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash-1500w.jpg");
+  background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash%20(1)-1500w.jpg");
   background-repeat: repeat;
   background-position: center;
 }
-.home-text4 {
+.home-text05 {
   color: rgb(255, 255, 255);
-  width: 1642px;
+  width: 1299px;
   font-size: 7rem;
   margin-top: 215px;
   text-align: right;
@@ -160,28 +219,243 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: lowercase;
 }
-@media(max-width: 1600px) {
-  .home-header {
-    border-style: hidden;
+.home-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.home-footer {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #a5a5a5;
+}
+.home-container2 {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-image2 {
+  width: 350px;
+  height: var(--dl-size-size-xlarge);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container4 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-icon16 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+}
+.home-container5 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-link4 {
+  display: contents;
+}
+.home-icon18 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  text-decoration: none;
+}
+.home-container6 {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-icon20 {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+}
+.home-separator1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.home-container7 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media(max-width: 1200px) {
+  .home-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+    background-color: #002855;
   }
-  .home-banner {
-    margin-bottom: var(--dl-space-space-sixunits);
+  .home-image {
+    width: 95px;
+    height: 95px;
   }
-  .home-text4 {
-    width: 1278px;
+  .home-navlink {
+    color: #ffffff;
+  }
+  .home-navlink1 {
+    color: #ffffff;
+  }
+  .home-navlink2 {
+    color: #ffffff;
+  }
+  .home-navlink3 {
+    color: #ffffff;
+  }
+  .home-icon-group {
+    width: var(--dl-size-size-xlarge);
+  }
+  .home-icon {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-icon02 {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+  }
+  .home-icon04 {
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+  }
+  .home-text {
+    width: 100%;
+  }
+  .home-banner1 {
+    background-size: cover;
+    background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash%20(1)-1500w.jpg");
+  }
+  .home-text05 {
+    width: 100%;
+  }
+  .home-footer {
+    background-color: #979DAC;
   }
 }
 @media(max-width: 991px) {
-  .home-icon06 {
-    display: flex;
+  .home-navbar-interactive {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .home-image {
+    width: 85px;
+    height: 85px;
+  }
+  .home-navlink {
+    color: #ffffff;
+    font-family: Inter;
+  }
+  .home-navlink1 {
+    color: #ffffff;
+  }
+  .home-navlink2 {
+    color: #ffffff;
+  }
+  .home-navlink3 {
+    color: #ffffff;
+  }
+  .home-icon-group {
+    width: var(--dl-size-size-large);
+  }
+  .home-icon {
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-icon02 {
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-icon04 {
+    fill: #ffffff;
+    width: 25px;
+    height: 25px;
+  }
+  .home-banner1 {
+    background-size: cover;
+    background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash%20(1)-1500w.jpg");
+  }
+  .home-footer {
+    background-color: #979DAC;
   }
 }
 @media(max-width: 767px) {
-  .home-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+  .home-navbar-interactive {
+    padding: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-right: 24px;
+    background-color: #002855;
   }
-  .home-nav {
+  .home-image {
+    width: 75px;
+    height: 75px;
+  }
+  .home-desktop-menu {
     display: none;
   }
   .home-burger-menu {
@@ -189,24 +463,185 @@
     align-items: center;
     justify-content: center;
   }
+  .home-icon06 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .home-mobile-menu {
+    padding-bottom: 72px;
+    background-color: #002855;
+  }
+  .home-image1 {
+    width: 72px;
+    height: 72px;
+  }
+  .home-icon08 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .home-navlink4 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-navlink5 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-navlink6 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-navlink7 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-icon-group1 {
+    align-self: center;
+  }
+  .home-icon10 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-icon12 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+  }
+  .home-icon14 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+  }
   .home-banner {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-container1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text04 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
   .home-banner1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+    background-size: cover;
+    background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash%20(1)-1500w.jpg");
+    background-position: center;
+  }
+  .home-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    background-color: #979DAC;
+  }
+  .home-image2 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-separator1 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container7 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text09 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
-  .home-header {
+  .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
+    background-color: #002855;
   }
   .home-icon-group {
     display: none;
   }
+  .home-icon06 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
   .home-mobile-menu {
-    padding: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 60px;
+    background-color: #002855;
+  }
+  .home-icon08 {
+    fill: #ffffff;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .home-navlink4 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-navlink5 {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-navlink6 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: var(--dl-space-space-twounits);
+    text-decoration: none;
+  }
+  .home-navlink7 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: Inter;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  .home-icon-group1 {
+    align-self: center;
+  }
+  .home-icon10 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-icon12 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
+    margin-right: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .home-icon14 {
+    fill: #ffffff;
+    width: 45px;
+    height: 45px;
   }
   .home-banner {
     padding-top: var(--dl-space-space-threeunits);
@@ -214,10 +649,81 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
+  .home-text {
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 5rem;
+    font-family: Prestage Outline;
+    font-weight: 900;
+    text-transform: lowercase;
+  }
+  .home-container1 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text04 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
   .home-banner1 {
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
+    background-size: cover;
+    background-image: url("/external/alexander-dummer-uh-xs-fiztk-unsplash%20(1)-1500w.jpg");
+    background-position: center;
+  }
+  .home-text05 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 5rem;
+    font-family: Prestage Outline;
+    font-weight: 900;
+    text-transform: lowercase;
+  }
+  .home-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-container4 {
+    width: auto;
+  }
+  .home-icon16 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-container5 {
+    width: auto;
+  }
+  .home-icon18 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .home-container6 {
+    width: auto;
+  }
+  .home-icon20 {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+  }
+  .home-separator1 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-container7 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-text09 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
