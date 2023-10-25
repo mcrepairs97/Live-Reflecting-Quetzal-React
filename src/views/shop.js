@@ -140,15 +140,15 @@ const Shop = (props) => {
       </div>
       <div className="shop-separator"></div>
       <div className="shop-container01">
-        <h1 className="shop-text04">
+        <h1 className="shop-text004">
           PLEASE  NOTE THAT THIS IS NOT AN ONLINE STORE TO PURCHASE FROM
           ALTHOUGH YOU CAN SEARCH FOR WHAT YOU NEED AND CALL IN TO PLACE AN
           ORDER WITH US.
         </h1>
       </div>
-      <div className="shop-separator1"></div>
+      <div className="shop-separator01"></div>
       <div className="shop-container02">
-        <h1 className="shop-text05">FULL SYSTEMS</h1>
+        <h1 className="shop-text005">FULL SYSTEMS</h1>
       </div>
       <div className="shop-container03">
         <div className="shop-container04">
@@ -157,7 +157,7 @@ const Shop = (props) => {
             src="/external/47741508-2-pdpxl-200h.jpg"
             className="shop-image2"
           />
-          <span className="shop-text06">
+          <span className="shop-text006">
             <span>
               AHD CCTV
               <span
@@ -169,18 +169,18 @@ const Shop = (props) => {
             <br></br>
             <span>4Ch Kit</span>
             <br></br>
-            <span className="shop-text11">R1850</span>
+            <span className="shop-text011">R1850</span>
             <br></br>
           </span>
         </div>
         <div className="shop-container05">
           <img
             alt="image"
-            src="/external/47741508-2-pdpxl-200h.jpg"
+            src="/external/47741514-1-zoom-200w.jpg"
             className="shop-image3"
           />
-          <span className="shop-text13">
-            <span className="shop-text14">
+          <span className="shop-text013">
+            <span className="shop-text014">
               AHD CCTV
               <span
                 dangerouslySetInnerHTML={{
@@ -188,19 +188,19 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text15"></br>
-            <span className="shop-text16">8Ch Kit</span>
+            <br className="shop-text015"></br>
+            <span className="shop-text016">8Ch Kit</span>
             <br></br>
-            <span className="shop-text18">R2990</span>
+            <span className="shop-text018">R2990</span>
             <br></br>
           </span>
         </div>
       </div>
       <div className="shop-container06">
-        <div className="shop-separator2"></div>
+        <div className="shop-separator02"></div>
       </div>
       <div className="shop-container07">
-        <h1 className="shop-text20">STORAGE DRIVES</h1>
+        <h1 className="shop-text020">STORAGE DRIVES</h1>
       </div>
       <div className="shop-container08">
         <div className="shop-container09">
@@ -209,8 +209,8 @@ const Shop = (props) => {
             src="/external/used-500gb-desktop-hdd-200h.jpg"
             className="shop-image4"
           />
-          <span className="shop-text21">
-            <span className="shop-text22">
+          <span className="shop-text021">
+            <span className="shop-text022">
               WD 500GB
               <span
                 dangerouslySetInnerHTML={{
@@ -218,19 +218,19 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text23"></br>
-            <span className="shop-text24">HDD</span>
-            <br className="shop-text25"></br>
-            <span className="shop-text26">R550</span>
+            <br className="shop-text023"></br>
+            <span className="shop-text024">HDD</span>
+            <br className="shop-text025"></br>
+            <span className="shop-text026">R650</span>
             <br></br>
           </span>
         </div>
         <div className="shop-container10">
           <div className="shop-container11">
-            <span className="shop-text28">NO STOCK</span>
+            <span className="shop-text028">NO STOCK</span>
           </div>
-          <span className="shop-text29">
-            <span className="shop-text30">
+          <span className="shop-text029">
+            <span className="shop-text030">
               SEAGATE 1TB
               <span
                 dangerouslySetInnerHTML={{
@@ -238,24 +238,24 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text31"></br>
-            <span className="shop-text32">HDD</span>
-            <br className="shop-text33"></br>
-            <span className="shop-text34">R950</span>
+            <br className="shop-text031"></br>
+            <span className="shop-text032">HDD</span>
+            <br className="shop-text033"></br>
+            <span className="shop-text034">R1170</span>
             <br></br>
           </span>
         </div>
       </div>
       <div className="shop-container12">
-        <div className="shop-separator3"></div>
+        <div className="shop-separator03"></div>
       </div>
       <div className="shop-container13">
         <div className="shop-container14">
           <div className="shop-container15">
-            <span className="shop-text36">NO STOCK</span>
+            <span className="shop-text036">NO STOCK</span>
           </div>
-          <span className="shop-text37">
-            <span className="shop-text38">
+          <span className="shop-text037">
+            <span className="shop-text038">
               SEAGATE
               <span
                 dangerouslySetInnerHTML={{
@@ -263,8 +263,8 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text39"></br>
-            <span className="shop-text40">
+            <br className="shop-text039"></br>
+            <span className="shop-text040">
               2TB
               <span
                 dangerouslySetInnerHTML={{
@@ -272,19 +272,19 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text41"></br>
-            <span className="shop-text42">HDD</span>
-            <br className="shop-text43"></br>
-            <span className="shop-text44">R1200</span>
+            <br className="shop-text041"></br>
+            <span className="shop-text042">HDD</span>
+            <br className="shop-text043"></br>
+            <span className="shop-text044">R1690</span>
             <br></br>
           </span>
         </div>
         <div className="shop-container16">
           <div className="shop-container17">
-            <span className="shop-text46">NO STOCK</span>
+            <span className="shop-text046">NO STOCK</span>
           </div>
-          <span className="shop-text47">
-            <span className="shop-text48">
+          <span className="shop-text047">
+            <span className="shop-text048">
               WD
               <span
                 dangerouslySetInnerHTML={{
@@ -292,98 +292,194 @@ const Shop = (props) => {
                 }}
               />
             </span>
-            <br className="shop-text49"></br>
-            <span className="shop-text50">5TB</span>
-            <br className="shop-text51"></br>
-            <span className="shop-text52">HDD</span>
-            <br className="shop-text53"></br>
-            <span className="shop-text54">R2300</span>
+            <br className="shop-text049"></br>
+            <span className="shop-text050">4TB</span>
+            <br className="shop-text051"></br>
+            <span className="shop-text052">HDD</span>
+            <br className="shop-text053"></br>
+            <span className="shop-text054">R3248</span>
             <br></br>
           </span>
         </div>
       </div>
-      <div className="shop-separator4"></div>
+      <div className="shop-separator04"></div>
       <div className="shop-container18">
-        <h1 className="shop-text56">DVR&apos;S</h1>
+        <h1 className="shop-text056">DVR&apos;S</h1>
       </div>
       <div className="shop-container19">
         <div className="shop-container20">
           <img
             alt="image"
-            src="/external/s-zom-200h.jpeg"
+            src="/8%20channel%20dvr%20-%208ch%20dvr%20h264%20-network%20-%20record%20-%20playback%20motion%20detect-%20remote%20access-pdpxl-200h.jpg"
             className="shop-image5"
           />
-          <span className="shop-text57">
-            <span className="shop-text58">DAHUA DH-</span>
-            <br className="shop-text59"></br>
-            <span className="shop-text60">XVR1B08 4CH</span>
-            <br className="shop-text61"></br>
-            <span className="shop-text62">R900</span>
+          <span className="shop-text057">
+            <span className="shop-text058">
+              8CH h.264
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className="shop-text059"></br>
+            <span className="shop-text060">DVR</span>
+            <br className="shop-text061"></br>
+            <span className="shop-text062">R1247</span>
             <br></br>
           </span>
         </div>
         <div className="shop-container21">
           <img
             alt="image"
-            src="/external/s-zom-200h.jpeg"
+            src="/57542075-1-zoom-200h.jpeg"
             className="shop-image6"
           />
-          <span className="shop-text64">
-            <span className="shop-text65">DAHUA DH-</span>
-            <br className="shop-text66"></br>
-            <span className="shop-text67">XVR1B08 8CH</span>
-            <br className="shop-text68"></br>
-            <span className="shop-text69">R1100</span>
-            <br></br>
+          <span className="shop-text064">
+            <span className="shop-text065">HILOOK 16ch</span>
+            <br className="shop-text066"></br>
+            <span className="shop-text067">HD DVR</span>
+            <br className="shop-text068"></br>
+            <span className="shop-text069">R2498</span>
           </span>
         </div>
       </div>
-      <div className="shop-separator5"></div>
+      <div className="shop-separator05"></div>
       <div className="shop-container22">
-        <h1 className="shop-text71">POWER SUPPLIES</h1>
+        <h1 className="shop-text070">POWER SUPPLIES</h1>
       </div>
       <div className="shop-container23">
         <div className="shop-container24">
           <div className="shop-container25">
-            <span className="shop-text72">NO STOCK</span>
+            <span className="shop-text071">NO STOCK</span>
           </div>
-          <span className="shop-text73">
-            <span className="shop-text74">12v 10A 9CH</span>
-            <br className="shop-text75"></br>
-            <span className="shop-text76">POWER SUPPLY</span>
-            <br className="shop-text77"></br>
-            <span className="shop-text78">R550</span>
+          <span className="shop-text072">
+            <span className="shop-text073">12v 10A 9CH</span>
+            <br className="shop-text074"></br>
+            <span className="shop-text075">POWER SUPPLY</span>
+            <br className="shop-text076"></br>
+            <span className="shop-text077">R550</span>
             <br></br>
           </span>
         </div>
         <div className="shop-container26">
           <div className="shop-container27">
-            <span className="shop-text80">NO STOCK</span>
+            <span className="shop-text079">NO STOCK</span>
           </div>
-          <span className="shop-text81">
-            <span className="shop-text82">12V 30A 18CH</span>
-            <br className="shop-text83"></br>
-            <span className="shop-text84">POWER SUPPLY</span>
-            <br className="shop-text85"></br>
-            <span className="shop-text86">R850</span>
+          <span className="shop-text080">
+            <span className="shop-text081">12V 30A 18CH</span>
+            <br className="shop-text082"></br>
+            <span className="shop-text083">POWER SUPPLY</span>
+            <br className="shop-text084"></br>
+            <span className="shop-text085">R850</span>
             <br></br>
           </span>
         </div>
       </div>
-      <div className="shop-separator6"></div>
+      <div className="shop-separator06"></div>
       <div className="shop-container28">
-        <h1 className="shop-text88">
+        <h1 className="shop-text087">UPS</h1>
+      </div>
+      <div className="shop-container29">
+        <div className="shop-container30">
+          <div className="shop-container31">
+            <span className="shop-text088">NO STOCK</span>
+          </div>
+          <span className="shop-text089">
+            <span className="shop-text090">MECER</span>
+            <br className="shop-text091"></br>
+            <span className="shop-text092">
+              1000 VA
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className="shop-text093"></br>
+            <span className="shop-text094">UPS</span>
+            <br className="shop-text095"></br>
+            <span className="shop-text096">R2468</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container32">
+          <div className="shop-container33">
+            <span className="shop-text098">NO STOCK</span>
+          </div>
+          <span className="shop-text099">
+            <span className="shop-text100">MECER</span>
+            <br className="shop-text101"></br>
+            <span className="shop-text102">2000 VA</span>
+            <br className="shop-text103"></br>
+            <span className="shop-text104">UPS</span>
+            <br className="shop-text105"></br>
+            <span className="shop-text106">R4329</span>
+            <br></br>
+          </span>
+        </div>
+      </div>
+      <div className="shop-separator07"></div>
+      <div className="shop-container34">
+        <h1 className="shop-text108">MONITORS</h1>
+      </div>
+      <div className="shop-container35">
+        <div className="shop-container36">
+          <div className="shop-container37">
+            <span className="shop-text109">NO STOCK</span>
+          </div>
+          <span className="shop-text110">
+            <span className="shop-text111">19&quot;SCREEN</span>
+            <br className="shop-text112"></br>
+            <span className="shop-text113">R1147</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="shop-container38">
+          <div className="shop-container39">
+            <span className="shop-text115">NO STOCK</span>
+          </div>
+          <span className="shop-text116">
+            <span className="shop-text117">
+              20&quot;SCREEN
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className="shop-text118"></br>
+            <span className="shop-text119">R1485</span>
+            <br></br>
+          </span>
+        </div>
+      </div>
+      <div className="shop-container40">
+        <div className="shop-container41">
+          <div className="shop-container42">
+            <span className="shop-text121">NO STOCK</span>
+          </div>
+          <span className="shop-text122">
+            <span className="shop-text123">22&quot;SCREEN</span>
+            <br className="shop-text124"></br>
+            <span className="shop-text125">R1890</span>
+          </span>
+        </div>
+      </div>
+      <div className="shop-separator08"></div>
+      <div className="shop-container43">
+        <h1 className="shop-text126">
           PLEASE  NOTE THAT THIS IS NOT AN ONLINE STORE TO PURCHASE FROM
           ALTHOUGH YOU CAN SEARCH FOR WHAT YOU NEED AND CALL IN TO PLACE AN
           ORDER WITH US.
         </h1>
       </div>
-      <div className="shop-separator7"></div>
+      <div className="shop-separator09"></div>
       <footer className="shop-footer">
-        <div className="shop-container29">
+        <div className="shop-container44">
           <img src="/external/untitled-1-400w.png" className="shop-image7" />
-          <div className="shop-container30">
-            <div className="shop-container31">
+          <div className="shop-container45">
+            <div className="shop-container46">
               <a
                 href="https://www.facebook.com/profile.php?id=100075744765555"
                 target="_blank"
@@ -398,7 +494,7 @@ const Shop = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="shop-container32">
+            <div className="shop-container47">
               <a href="tel:+27630241370" className="shop-link7">
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -408,7 +504,7 @@ const Shop = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="shop-container33">
+            <div className="shop-container48">
               <a
                 href="https://www.instagram.com/bmdigitalsurveillance"
                 target="_blank"
@@ -425,9 +521,9 @@ const Shop = (props) => {
             </div>
           </div>
         </div>
-        <div className="shop-separator8"></div>
-        <div className="shop-container34">
-          <span className="shop-text89">
+        <div className="shop-separator10"></div>
+        <div className="shop-container49">
+          <span className="shop-text127">
             Copyright © 2023. All Rights Reserved.
           </span>
         </div>
