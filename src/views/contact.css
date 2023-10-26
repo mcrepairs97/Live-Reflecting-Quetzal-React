@@ -279,7 +279,7 @@
   justify-content: center;
 }
 .contact-container06 {
-  width: auto;
+  width: 500px;
   padding: var(--dl-space-space-unit);
   box-shadow: 5px 5px 15px 0px #afafaf;
   border-radius: var(--dl-radius-radius-radius8);
