@@ -208,7 +208,7 @@ const Contact = (props) => {
     <label
     style="font-family:impact">
     Your Name: <br>
-    <input style="border:2px solid black;border-radius:5px" type="text" name="name" />
+    <input style="border:1px solid black;border-radius:5px;width:100%" type="text" name="name" />
     </label>
   </p>
   <br>
@@ -216,7 +216,7 @@ const Contact = (props) => {
     <label 
     style="font-family:impact">
     Your Email: <br>
-    <input style="border:2px solid black;border-radius:5px" type="email" name="email" />
+    <input style="border:1px solid black;border-radius:5px;width:100%" type="email" name="email" />
     </label>
   </p>
   <br>
@@ -224,14 +224,14 @@ const Contact = (props) => {
     <label 
     style="font-family:impact">
     Message: <br>
-    <textarea style="border:2px solid black;border-radius:5px" name="message"></textarea>
+    <textarea style="border:1px solid black;border-radius:5px;width:100%" name="message"></textarea>
     </label>
   </p>
   <br>
 
   <p>
     <button 
-    style="background-color:blue;color:white;font-family:impact;border:2px solid black;border-radius:5px" type="submit">
+    style="width:100%;padding:10px 30px;background-color:#002855;color:white;font-family:impact;border:1px solid black;border-radius:5px" type="submit">
     Send
     </button>
   </p>

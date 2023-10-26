@@ -262,6 +262,7 @@
 }
 .contact-text09 {
   width: auto;
+  font-size: 24px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
@@ -274,19 +275,14 @@
   height: auto;
   display: flex;
   margin-top: var(--dl-space-space-twounits);
-  border-radius: var(--dl-radius-radius-radius4);
+  border-radius: 0px;
   justify-content: center;
 }
 .contact-container06 {
   width: auto;
   padding: var(--dl-space-space-unit);
-  border-color: var(--dl-color-gray-black);
-  border-width: 3px;
-  border-radius: var(--dl-radius-radius-radius4);
-  border-top-left-radius: var(--dl-radius-radius-radius8);
-  border-top-right-radius: var(--dl-radius-radius-radius8);
-  border-bottom-left-radius: var(--dl-radius-radius-radius8);
-  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  box-shadow: 5px 5px 15px 0px #afafaf;
+  border-radius: var(--dl-radius-radius-radius8);
 }
 .contact-container07 {
   display: contents;
