@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './contact.css'
@@ -183,7 +184,7 @@ const Contact = (props) => {
       </div>
       <div className="contact-separator1"></div>
       <div className="contact-container03">
-        <form data-netlify="true" method="POST" className="contact-form">
+        <form method="POST" data-netlify="true" className="contact-form">
           <input type="text" placeholder="Name" className="input" />
           <input type="email" placeholder="Email" className="input" />
           <textarea placeholder="MESSAGE" className="textarea"></textarea>
@@ -191,13 +192,24 @@ const Contact = (props) => {
             Button
           </button>
         </form>
+        <div className="contact-container04">
+          <div className="contact-container05">
+            <Script
+              html={`<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <div className="contact-separator2"></div>
       <footer className="contact-footer">
-        <div className="contact-container04">
+        <div className="contact-container06">
           <img src="/external/untitled-1-400w.png" className="contact-image2" />
-          <div className="contact-container05">
-            <div className="contact-container06">
+          <div className="contact-container07">
+            <div className="contact-container08">
               <a
                 href="https://www.facebook.com/profile.php?id=100075744765555"
                 target="_blank"
@@ -212,7 +224,7 @@ const Contact = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="contact-container07">
+            <div className="contact-container09">
               <a href="tel:+27630241370" className="contact-link7">
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -222,7 +234,7 @@ const Contact = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="contact-container08">
+            <div className="contact-container10">
               <a
                 href="https://www.instagram.com/bmdigitalsurveillance"
                 target="_blank"
@@ -240,7 +252,7 @@ const Contact = (props) => {
           </div>
         </div>
         <div className="contact-separator3"></div>
-        <div className="contact-container09">
+        <div className="contact-container11">
           <span className="contact-text10">
             Copyright © 2023. All Rights Reserved.
           </span>
