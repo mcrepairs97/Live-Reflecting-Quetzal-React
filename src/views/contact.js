@@ -188,8 +188,17 @@ const Contact = (props) => {
       <div className="contact-container03">
         <div className="contact-container04">
           <Script
-            html={`<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-36d43f76-4e9e-4095-9f5e-4d45e946f304"></div>`}
+            html={`<form name="contact" netlify> 
+    <p>
+        <lable>Name <input type="text" name="name" /></label>
+    </p>
+    <p>
+        <lable>Email <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <button type="submit"> Send</button>
+    </p>
+</form>`}
           ></Script>
         </div>
       </div>
