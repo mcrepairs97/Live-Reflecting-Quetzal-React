@@ -251,6 +251,10 @@
   align-items: center;
   justify-content: center;
 }
+.contact-container04 {
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+}
 .contact-container05 {
   display: contents;
 }
