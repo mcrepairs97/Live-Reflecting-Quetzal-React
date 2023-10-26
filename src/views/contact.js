@@ -176,8 +176,7 @@ const Contact = (props) => {
                 }}
               />
             </span>
-            <br className="contact-text07"></br>
-            <span className="contact-text08">WHAT WE SPECIALIZE IN</span>
+            <span className="contact-text07">WHAT WE SPECIALIZE IN</span>
             <br></br>
           </span>
         </div>
@@ -185,35 +184,54 @@ const Contact = (props) => {
       <div className="contact-separator1"></div>
       <div className="contact-container03">
         <div className="contact-container04">
-          <div className="contact-container05">
+          <span className="contact-text09">
+            <span>
+              if you wish to get hold us, please fill in the details below
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>and send us a message so we can get back to you.</span>
+          </span>
+        </div>
+      </div>
+      <div className="contact-container05">
+        <div className="contact-container06">
+          <div className="contact-container07">
             <Script
               html={`<form name="contact" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
   <p>
     <label
-    style="font-family:arial">
-    Your Name: <input style="border:2px solid black;border-radius:5px" type="text" name="name" />
+    style="font-family:impact">
+    Your Name: <br>
+    <input style="border:2px solid black;border-radius:5px" type="text" name="name" />
     </label>
   </p>
   <br>
   <p>
     <label 
-    style="font-family:arial">
-    Your Email: <input style="border:2px solid black;border-radius:5px" type="email" name="email" />
+    style="font-family:impact">
+    Your Email: <br>
+    <input style="border:2px solid black;border-radius:5px" type="email" name="email" />
     </label>
   </p>
   <br>
   <p>
     <label 
-    style="font-family:arial">
-    Message: <textarea style="border:2px solid black;border-radius:5px" name="message"></textarea>
+    style="font-family:impact">
+    Message: <br>
+    <textarea style="border:2px solid black;border-radius:5px" name="message"></textarea>
     </label>
   </p>
   <br>
 
   <p>
     <button 
-    style="background-color:blue;color:white;font-family:arial;border:2px solid black;border-radius:5px" type="submit">
+    style="background-color:blue;color:white;font-family:impact;border:2px solid black;border-radius:5px" type="submit">
     Send
     </button>
   </p>
@@ -225,10 +243,10 @@ const Contact = (props) => {
       </div>
       <div className="contact-separator2"></div>
       <footer className="contact-footer">
-        <div className="contact-container06">
+        <div className="contact-container08">
           <img src="/external/untitled-1-400w.png" className="contact-image2" />
-          <div className="contact-container07">
-            <div className="contact-container08">
+          <div className="contact-container09">
+            <div className="contact-container10">
               <a
                 href="https://www.facebook.com/profile.php?id=100075744765555"
                 target="_blank"
@@ -243,7 +261,7 @@ const Contact = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="contact-container09">
+            <div className="contact-container11">
               <a href="tel:+27630241370" className="contact-link7">
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -253,7 +271,7 @@ const Contact = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="contact-container10">
+            <div className="contact-container12">
               <a
                 href="https://www.instagram.com/bmdigitalsurveillance"
                 target="_blank"
@@ -271,8 +289,8 @@ const Contact = (props) => {
           </div>
         </div>
         <div className="contact-separator3"></div>
-        <div className="contact-container11">
-          <span className="contact-text10">
+        <div className="contact-container13">
+          <span className="contact-text13">
             Copyright © 2023. All Rights Reserved.
           </span>
         </div>
