@@ -186,6 +186,14 @@ const Contact = (props) => {
       </div>
       <div className="contact-separator1"></div>
       <div className="contact-container03">
+        <form className="contact-form">
+          <input type="text" placeholder="placeholder" className="input" />
+          <input type="email" placeholder="placeholder" className="input" />
+          <textarea placeholder="MESSAGE" className="textarea"></textarea>
+          <button type="submit" className="button">
+            Button
+          </button>
+        </form>
         <div className="contact-container04">
           <div className="contact-container05">
             <Script
@@ -196,12 +204,6 @@ const Contact = (props) => {
   </p>
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>

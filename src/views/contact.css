@@ -245,14 +245,20 @@
 }
 .contact-container03 {
   flex: 0 0 auto;
-  width: auto;
-  height: 100%;
+  width: 80%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.contact-form {
+  width: auto;
+  height: 100px;
+  display: flex;
+}
 .contact-container04 {
   width: 100%;
+  display: none;
 }
 .contact-container05 {
   display: contents;
