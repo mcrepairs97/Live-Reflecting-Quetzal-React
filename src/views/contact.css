@@ -253,7 +253,7 @@
 }
 .contact-container04 {
   border-color: var(--dl-color-gray-black);
-  border-width: 3px;
+  border-width: 0px;
 }
 .contact-container05 {
   display: contents;

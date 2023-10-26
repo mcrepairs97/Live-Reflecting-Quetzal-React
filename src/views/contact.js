@@ -190,16 +190,32 @@ const Contact = (props) => {
               html={`<form name="contact" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+    <label
+    style="font-family:arial">
+    Your Name: <input style="border:2px solid black;border-radius:5px" type="text" name="name" />
+    </label>
   </p>
+  <br>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label 
+    style="font-family:arial">
+    Your Email: <input style="border:2px solid black;border-radius:5px" type="email" name="email" />
+    </label>
   </p>
+  <br>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label 
+    style="font-family:arial">
+    Message: <textarea style="border:2px solid black;border-radius:5px" name="message"></textarea>
+    </label>
   </p>
+  <br>
+
   <p>
-    <button type="submit">Send</button>
+    <button 
+    style="background-color:blue;color:white;font-family:arial;border:2px solid black;border-radius:5px" type="submit">
+    Send
+    </button>
   </p>
 </form>
 `}
