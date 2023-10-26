@@ -184,27 +184,24 @@ const Contact = (props) => {
       </div>
       <div className="contact-separator1"></div>
       <div className="contact-container03">
-        <form
-          method="POST"
-          data-netlify="true"
-          name="contact"
-          className="contact-form"
-        >
-          <input type="text" placeholder="Name" className="input" />
-          <input type="email" placeholder="Email" className="input" />
-          <textarea placeholder="MESSAGE" className="textarea"></textarea>
-          <button type="submit" className="button">
-            Button
-          </button>
-        </form>
         <div>
           <div className="contact-container05">
             <Script
-              html={`<form name="contact" netlify netlify-honeypot="bot-field" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message"></textarea>
-      </form>`}
+              html={`<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+`}
             ></Script>
           </div>
         </div>
