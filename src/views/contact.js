@@ -183,9 +183,9 @@ const Contact = (props) => {
       </div>
       <div className="contact-separator1"></div>
       <div className="contact-container03">
-        <form className="contact-form" netlify>
-          <input type="text" placeholder="placeholder" className="input" />
-          <input type="email" placeholder="placeholder" className="input" />
+        <form data-netlify="true" method="POST" className="contact-form">
+          <input type="text" placeholder="Name" className="input" />
+          <input type="email" placeholder="Email" className="input" />
           <textarea placeholder="MESSAGE" className="textarea"></textarea>
           <button type="submit" className="button">
             Button

@@ -253,7 +253,7 @@
 }
 .contact-form {
   width: auto;
-  height: 100px;
+  height: 100%;
   display: flex;
 }
 .contact-separator2 {
