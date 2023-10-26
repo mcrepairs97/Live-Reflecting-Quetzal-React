@@ -9,19 +9,17 @@ const Contact = (props) => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>Contact - B&M Digital Surveillance</title>
+        <title>Contact</title>
         <meta
           name="description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
-        <meta
-          property="og:title"
-          content="Contact - B&amp;M Digital Surveillance"
-        />
+        <meta property="og:title" content="Contact" />
         <meta
           property="og:description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
+        <meta name="robots" content="noindex" />
       </Helmet>
       <header data-thq="thq-navbar" className="contact-navbar-interactive">
         <img

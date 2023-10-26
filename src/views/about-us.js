@@ -9,19 +9,17 @@ const AboutUs = (props) => {
   return (
     <div className="about-us-container">
       <Helmet>
-        <title>About-us - B&M Digital Surveillance</title>
+        <title>About us</title>
         <meta
           name="description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
-        <meta
-          property="og:title"
-          content="About-us - B&amp;M Digital Surveillance"
-        />
+        <meta property="og:title" content="About us" />
         <meta
           property="og:description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
+        <meta name="robots" content="noindex" />
       </Helmet>
       <header data-thq="thq-navbar" className="about-us-navbar-interactive">
         <img

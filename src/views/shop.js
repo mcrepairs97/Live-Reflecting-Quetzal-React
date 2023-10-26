@@ -9,19 +9,17 @@ const Shop = (props) => {
   return (
     <div className="shop-container">
       <Helmet>
-        <title>Shop - B&M Digital Surveillance</title>
+        <title>Shop</title>
         <meta
           name="description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
-        <meta
-          property="og:title"
-          content="Shop - B&amp;M Digital Surveillance"
-        />
+        <meta property="og:title" content="Shop" />
         <meta
           property="og:description"
           content="Looking for great expertise in CCTV, give us a call or take a look at our site and check out who we and what we do!"
         />
+        <meta name="robots" content="noindex" />
       </Helmet>
       <header data-thq="thq-navbar" className="shop-navbar-interactive">
         <img
