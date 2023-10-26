@@ -244,9 +244,17 @@
   border-right-width: 0px;
 }
 .contact-container03 {
-  width: 100%;
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-container04 {
+  width: 100%;
+}
+.contact-container05 {
   display: contents;
 }
 .contact-separator2 {
@@ -281,7 +289,7 @@
   justify-content: space-between;
   background-color: #979DAC;
 }
-.contact-container05 {
+.contact-container06 {
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
@@ -293,14 +301,14 @@
   height: var(--dl-size-size-xlarge);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.contact-container06 {
+.contact-container07 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact-container07 {
+.contact-container08 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -315,7 +323,7 @@
   height: var(--dl-size-size-medium);
   text-decoration: none;
 }
-.contact-container08 {
+.contact-container09 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -330,7 +338,7 @@
   height: var(--dl-size-size-medium);
   text-decoration: none;
 }
-.contact-container09 {
+.contact-container10 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -363,7 +371,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.contact-container10 {
+.contact-container11 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -588,7 +596,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container10 {
+  .contact-container11 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -734,7 +742,7 @@
   .contact-footer {
     padding: var(--dl-space-space-unit);
   }
-  .contact-container07 {
+  .contact-container08 {
     width: auto;
   }
   .contact-icon16 {
@@ -742,7 +750,7 @@
     height: var(--dl-size-size-small);
     margin-right: var(--dl-space-space-twounits);
   }
-  .contact-container08 {
+  .contact-container09 {
     width: auto;
   }
   .contact-icon18 {
@@ -750,7 +758,7 @@
     height: var(--dl-size-size-small);
     margin-right: var(--dl-space-space-twounits);
   }
-  .contact-container09 {
+  .contact-container10 {
     width: auto;
   }
   .contact-icon20 {
@@ -761,7 +769,7 @@
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .contact-container10 {
+  .contact-container11 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
